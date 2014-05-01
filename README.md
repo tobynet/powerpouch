@@ -32,7 +32,7 @@ foobar.txt
 Convert foobar.xls to foobar.pdf: 
 
 ```
-> ConvertTo-Pdf.ps1 *.xls
+> ls *.xls | ConvertTo-Pdf.ps1
 Converting foobar.xls to foobar.pdf
 Converting buzz.xls to buzz.pdf
  :
