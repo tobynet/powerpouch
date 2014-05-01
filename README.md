@@ -32,8 +32,11 @@ foobar.txt
 Convert foobar.xls to foobar.pdf: 
 
 ```
-> ConvertTo-Pdf.ps1 foobar.xls
+> ConvertTo-Pdf.ps1 *.xls
 Converting foobar.xls to foobar.pdf
+Converting buzz.xls to buzz.pdf
+ :
+DONE
 ```
 
 Convert xls files to PDF automatically in specific folder:
