@@ -8,7 +8,7 @@ My digital tools for PowerShell in Windows.
 
 ## How to install
 
-Download this repository
+[Download](https://github.com/toooooooby/powerpouch/archive/master.zip) this repository
 
 or 
 
@@ -21,6 +21,9 @@ git clone https://github.com/toooooooby/powerpouch ~\bin[Tab]
 Notice that files update in specific folder.
 
 ```
+> ls ~\sharefolder\reports\ -name
+foobar.txt
+ :
 > cd ~\sharefolder\[tab]
 > Watch-Folder.ps1 reports\ | write
 foobar.txt
